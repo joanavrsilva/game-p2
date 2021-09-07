@@ -93,14 +93,6 @@
     display: block;
   }
   
-  .hands .paper {
-    margin-right: 20px;
-  }
-  
-  .hands .scissors {
-    margin-left: 20px;
-  }
-  
   .hands .hand {
     cursor: pointer;
     transition: all 0.25s;
