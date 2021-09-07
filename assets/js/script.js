@@ -1,7 +1,9 @@
 const handOptions = {
     "rock": "/assets/images/Rock.png",
     "paper": "/assets/images/Paper.png",
-    "scissors": "/assets/images/Scissors.png"
+    "scissors": "/assets/images/Scissors.png",
+    "spock": "/assets/images/spock.png",
+    "lizard": "assets/images/lizard.png",
   }
   
   let SCORE = 0;
@@ -20,7 +22,7 @@ const handOptions = {
   };
   
   const pickComputerHand = (hand) => {
-      let hands = ["rock", "paper", "scissors"];
+      let hands = ["rock", "paper", "scissors", "spock", "lizard"];
       let cpHand = hands[Math.floor(Math.random() * hands.length)];
       
       // set computer image 
@@ -60,6 +62,7 @@ const handOptions = {
       setDecision("YOU WIN!");
       setScore(SCORE + 1);
     }
+    
   };
   
   const restartGame = () => {
