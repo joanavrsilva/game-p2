@@ -9,6 +9,7 @@ const handOptions = {
 
   
   let SCORE = 0;
+  let SCORECP = 0;
   
   const pickUserHand = (hand) => {
     let hands = document.querySelector(".hands");
@@ -49,95 +50,16 @@ const handOptions = {
     }
     else if (handWins[userHand].includes(cpHand)){
       setDecision("YOU WIN!");
-      setScore(SCORE + 1);
+      SCORE=SCORE + 1
+      setScore(SCORE,"scoreUser");
     }
     else {
       setDecision("YOU LOSE!");
+      SCORECP=SCORECP + 1
+      setScore(SCORECP,"scoreCP");
     }
     
 }
-
-  
-  // Finish new code
-
-  /*const referee = (userHand, cpHand) => {
-    if (userHand == "paper" && cpHand == "scissors") {
-      setDecision("YOU LOSE!");
-    }
-    else if (userHand == "paper" && cpHand == "rock") {
-      setDecision("YOU WIN!");
-      setScore(SCORE + 1);
-    }
-    else if (userHand == "paper" && cpHand == "paper") {
-      setDecision("It's a tie!");
-    }
-    else if (userHand == "rock" && cpHand == "scissors") {
-      setDecision("YOU WIN!");
-      setScore(SCORE + 1);
-    }
-    else if (userHand == "rock" && cpHand == "paper") {
-      setDecision("YOU LOSE!");
-    }
-    else if (userHand == "rock" && cpHand == "rock") {
-      setDecision("It's a tie!");
-    }
-    else if (userHand == "scissors" && cpHand == "scissors") {
-      setDecision("It's a tie!");
-    }
-    else if (userHand == "scissors" && cpHand == "rock") {
-      setDecision("YOU LOSE!");
-    }
-    else if (userHand == "scissors" && cpHand == "paper") {
-      setDecision("YOU WIN!");
-      setScore(SCORE + 1);
-    }
-// ll
-    else if (userHand == "spock" && cpHand == "spock") {
-      setDecision("It's a tie!");
-    }
-
-    else if (userHand == "spock" && cpHand == "scissors") {
-      setDecision("YOU WIN!");
-      setScore(SCORE + 1);
-    }
-
-    else if (userHand == "spock" && cpHand == "rock") {
-      setDecision("YOU WIN!");
-      setScore(SCORE + 1);
-    }
-    
-    else if (userHand == "spock" && cpHand == "lizard") {
-      setDecision("YOU LOSE!");
-
-    }
-
-    else if (userHand == "spock" && cpHand == "paper") {
-    setDecision("YOU LOSE!");
-    }
-  // kkk
-  else if (userHand == "lizard" && cpHand == "lizard") {
-    setDecision("It's a tie!");
-  }
-
-  else if (userHand == "lizard" && cpHand == "paper") {
-    setDecision("YOU WIN!");
-    setScore(SCORE + 1);
-  }
-
-  else if (userHand == "lizard" && cpHand == "spock") {
-    setDecision("YOU WIN!");
-    setScore(SCORE + 1);
-  }
-  
-  else if (userHand == "lizard" && cpHand == "rock") {
-    setDecision("YOU LOSE!");
-
-  }
-
-  else if (userHand == "lizard" && cpHand == "scissors") {
-  setDecision("YOU LOSE!");
-  };
-  */
 
   const restartGame = () => {
     let contest = document.querySelector(".contest");
@@ -151,7 +73,6 @@ const handOptions = {
     document.querySelector(".decision h1").innerText = decision;
   }
   
-  const setScore = (newScore) => {
-    SCORE = newScore;
-    document.querySelector(".score h1").innerText = newScore;
+  const setScore = (newScore, id) => {
+    document.getElementById(id).innerText = newScore;
   }

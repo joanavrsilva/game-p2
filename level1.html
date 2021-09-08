@@ -28,10 +28,17 @@
               <img src='/assets/images/title.png'/>
           </div>
           <div class="score">
-              <p>Your Score</p>
-              <h1> 0 </h1>
-              <p>Computer Score</p>
-              <h1> 0 </h1>
+            <table>
+                <tbody>
+                <tr>
+                  <th style="padding:0 25px 0 25px;text-align:center">Your score</th>
+                  <th style="padding:0 25px 0 15px;text-align:center">Computer Score</th>
+                </tr>
+                <tr>
+                  <td style="padding:0 20px 0 25px;text-align:center" id="scoreUser">0</td>
+                  <td style="padding:0 20px 0 25px;text-align:center" id="scoreCP">0</td>
+                </tr>
+              </tbody></table>
             </div>
       </div>
       <div class="hands">
@@ -53,7 +60,7 @@
             </div>
         </div>
         <div class="referee"> 
-            <div class="decision"><h1> YOU WIN! </h1></div>
+            <div class="decision"><h1></h1></div>
             <div class="newGame" onclick="restartGame()">PLAY AGAIN</div>
         </div>
         <div class="computerhand">
