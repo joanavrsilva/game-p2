@@ -5,6 +5,8 @@ const handOptions = {
     "spock": "/assets/images/spock.png",
     "lizard": "assets/images/lizard.png",
   }
+
+
   
   let SCORE = 0;
   
@@ -30,8 +32,35 @@ const handOptions = {
       
       referee(hand, cpHand);
   };
-  
+  // New code
+  const handWins = {
+    "rock": ["scissors", "lizard"],
+    "paper": ["rock", "spock"],
+    "scissors": ["paper", "lizard"],
+    "spock": ["rock", "scissors"],
+    "lizard": ["paper", "spock"]
+  }
+ 
+
   const referee = (userHand, cpHand) => {
+
+    if (userHand == cpHand) {
+      setDecision("It's a tie!");
+    }
+    else if (handWins[userHand].includes(cpHand)){
+      setDecision("YOU WIN!");
+      setScore(SCORE + 1);
+    }
+    else {
+      setDecision("YOU LOSE!");
+    }
+    
+}
+
+  
+  // Finish new code
+
+  /*const referee = (userHand, cpHand) => {
     if (userHand == "paper" && cpHand == "scissors") {
       setDecision("YOU LOSE!");
     }
@@ -108,8 +137,8 @@ const handOptions = {
   else if (userHand == "lizard" && cpHand == "scissors") {
   setDecision("YOU LOSE!");
   };
+  */
 
-  }
   const restartGame = () => {
     let contest = document.querySelector(".contest");
     contest.style.display = "none";
