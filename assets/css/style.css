@@ -10,6 +10,7 @@
   
   .how-play-level-link {
     color:white;
+    text-align:center
   }
   body {
     font-family: "Barlow Condensed", sans-serif;
@@ -145,6 +146,7 @@ button:hover p {
   margin-top: 30px;
   color: white;
   padding-top: 80px;
+  font-size: large;
 }
 
 .how-play h2 {
@@ -176,6 +178,9 @@ button:hover p {
     justify-content: space-between;
     align-items: center;
     margin-top: 70px;
+    color: #2b2e53;
+    text-align: center;
+    margin-top: 30px;
   }
   
   .title {
@@ -215,7 +220,7 @@ button:hover p {
   .your-score {
     padding: 0 40px 0 40px;
     text-align: center;
-    background-color: brown;
+    background-color:rgb(84, 130, 53) ;
     border: 1px solid white;
     color: white;
     border-radius: 8px;
@@ -225,7 +230,7 @@ button:hover p {
   .computer-score {
     padding: 0 25px 0 25px;
     text-align: center;
-    background-color: blue;
+    background-color:rgb(177, 38, 63);
     border: 1px solid white;
     color: white;
     border-radius: 8px;
@@ -233,7 +238,7 @@ button:hover p {
   }
 
   .score-results {
-    padding:0 20px 0 25px;
+    padding: 25px 0px 25px 0px;
     text-align:center;
     border: 1px solid darkblue;
     border-radius: 8px;
