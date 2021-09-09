@@ -46,15 +46,42 @@
 }
 
 #menu a:hover {
-    border-bottom: 1px solid lightsteelblue;
+    border-bottom: 2px dotted white;
 }
 
 .active {
-    border-bottom: double;
+  border-bottom: 2px solid white;
 }
 
 .welcome{
  padding: 100px;
+ border: 10px;
+  border-radius: 8px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: #2a45c2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    text-align: left;
+ 
+}
+
+.how-play {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  padding-top: 80px;
+}
+
+.how-play h2 {
+  text-decoration: center;
 }
 
   .wrapper {
