@@ -178,9 +178,6 @@ button:hover p {
     justify-content: space-between;
     align-items: center;
     margin-top: 70px;
-    color: #2b2e53;
-    text-align: center;
-    margin-top: 30px;
   }
   
   .title {
@@ -255,6 +252,7 @@ button:hover p {
     width: 600px;
     display: flex;
     z-index: 0;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .hands img {
