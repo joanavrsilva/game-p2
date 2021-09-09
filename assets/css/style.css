@@ -8,6 +8,9 @@
     box-sizing: border-box;
   }
   
+  .how-play-level-link {
+    color:white;
+  }
   body {
     font-family: "Barlow Condensed", sans-serif;
     background-color:#2b2e53;
@@ -23,6 +26,7 @@
     letter-spacing: 3px;
     float: right;
     color: white;
+    margin-top: 20px;
 }
 
 #menu, #logo {
@@ -72,7 +76,70 @@
     text-align: left;
  
 }
+button {
+	cursor: pointer;
+	position: relative;
+	padding: 1.5rem 6.5rem;
+	border-radius: 2.75rem;
+	line-height: 1.5rem;
+	font-size: 1rem;
+	font-weight: 400;
+  color:white
+}
 
+.button-level1 {
+  border: 1px solid rgb(221, 122, 140);
+	background-image: linear-gradient(-180deg, rgb(222, 65, 93) 0%, rgb(177, 38, 63) 100%);
+	box-shadow: 0 0.5rem 0.75rem 0 rgb(216, 203, 206),
+							0 -0.25rem 0.75rem rgb(216, 203, 206) inset,
+							0 0.75rem 0.75rem rgb(216, 203, 206) inset,
+							0 0.25rem 0.75rem 0 rgb(216, 203, 206)inset;
+}
+
+.button-level2 {
+  border: 1px solid rgb(163, 231, 174) ;
+	background-image: linear-gradient(-180deg, rgb(84, 130, 53) 0%, rgb(84, 130, 53) 100%);
+	box-shadow: 0 0.5rem 0.75rem 0 rgb(216, 203, 206),
+							0 -0.25rem 0.75rem rgb(216, 203, 206) inset,
+							0 0.75rem 0.75rem rgb(216, 203, 206) inset,
+							0 0.25rem 0.75rem 0 rgb(216, 203, 206)inset;
+}
+
+button span {
+	color: transparent;
+	background-image: linear-gradient(0deg, #EE82DA 0%, #FEFAFD 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	filter: drop-shadow(0 2px 2px hsla(290, 100%, 20%, 1));
+}
+
+button:hover {
+	animation: .8s morph ease infinite;
+}
+
+button:hover p {
+	animation: .8s rot ease infinite;
+}
+
+@keyframes morph {
+	0% {
+		border-radius: 100px 30px 100px 30px;
+	} 50% {
+		border-radius: 30px 100px 30px 100px;
+	} 100% {
+		border-radius: 100px 30px 100px 30px;
+	}
+}
+
+@keyframes rot {
+	0% {
+		transform: rotate(-3deg);
+	} 50% {
+		transform: rotate(3deg);
+	} 100% {
+		transform: rotate(-3deg);
+	}
+}
 .how-play {
   text-align: center;
   margin-top: 30px;
@@ -85,11 +152,19 @@
 }
 
   .wrapper {
-    display: flex;
+    display: center;
     flex-direction: column;
     align-items: center;
-    height: 150px;
+    height: 100px;
     background: #2b2e53;
+    text-align: center;
+    color: #2b2e53;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 300px;
+  }
+  .wrapper h1 {
+    color: white
   }
   
   .scoreboard {
@@ -175,7 +250,6 @@
     width: 600px;
     display: flex;
     z-index: 0;
-    flex-wrap: wrap;
     justify-content: center;
   }
   .hands img {

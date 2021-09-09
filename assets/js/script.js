@@ -5,8 +5,6 @@ const handOptions = {
     "spock": "/assets/images/spock.png",
     "lizard": "assets/images/lizard.png",
   }
-
-
   
   let SCORE = 0;
   let SCORECP = 0;
