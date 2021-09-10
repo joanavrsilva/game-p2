@@ -65,7 +65,7 @@ The website consists of six pages: Home, How to play, How to Play level 1, How t
     
 
 #### Performance testing
-* Lighthouse performace - 84% (insert screen shoot).
+* Lighthouse performace - 
 
 ### Deployment
 * The project was deployed on GitHub Pages.
@@ -74,7 +74,7 @@ The steps to deploy are as follows:
 * In the GitHub repository, I navigate to the Settings tab;
 * From the source section drop-down menu, I select the Main Branch;
 * Once the master branch has been selected, the page refreshed with a detailed ribbon display to indicate the successful deployment;
-* The site is published at (https://joanavrsilva.github.io/dogs-owners-club/).
+* The site is published at ().
 
 #### Issues and changes
 
