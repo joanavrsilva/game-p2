@@ -1,9 +1,9 @@
 const handOptions = {
-    "rock": "/assets/images/Rock.png",
-    "paper": "/assets/images/Paper.png",
-    "scissors": "/assets/images/Scissors.png",
-    "spock": "/assets/images/spock.png",
-    "lizard": "assets/images/lizard.png",
+    'rock': "/assets/images/Rock.png",
+    'paper': "/assets/images/Paper.png",
+    'scissors': "/assets/images/Scissors.png",
+    'spock': "/assets/images/spock.png",
+    'lizard': "assets/images/lizard.png",
   }
   
   let SCORE = 0;
@@ -23,7 +23,7 @@ const handOptions = {
   };
   
   const pickComputerHand = (hand) => {
-      let hands = ["rock", "paper", "scissors", "spock", "lizard"];
+      let hands = ['rock', 'paper', 'scissors', 'spock', 'lizard'];
       let cpHand = hands[Math.floor(Math.random() * hands.length)];
       
       // set computer image 
@@ -33,11 +33,11 @@ const handOptions = {
   };
   // New code
   const handWins = {
-    "rock": ["scissors", "lizard"],
-    "paper": ["rock", "spock"],
-    "scissors": ["paper", "lizard"],
-    "spock": ["rock", "scissors"],
-    "lizard": ["paper", "spock"]
+    'rock': ['scissors', 'lizard'],
+    'paper': ['rock', 'spock'],
+    'scissors': ['paper', 'lizard'],
+    'spock': ['rock', 'scissors'],
+    'lizard': ['paper', 'spock']
   }
  
 
