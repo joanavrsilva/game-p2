@@ -31,7 +31,7 @@ The website consists of six pages: Home, How to play, How to Play level 1, How t
 ### Home page
 * The Home page contains a navigation menu on the right side;
 * A title, two level play bottons and a image of the two levels;
-* The navigatior bar also contains links to Play the Level 1 and Level 2.
+* The navigation bar also contains links to Play the Level 1 and Level 2.
 * The user can understand the game, choose the level he want to play and see the instructions if needed.
 
 ### How to play
