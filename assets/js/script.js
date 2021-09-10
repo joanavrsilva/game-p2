@@ -1,8 +1,8 @@
 const handOptions = {
-    'rock': "/assets/images/Rock.png",
-    'paper': "/assets/images/Paper.png",
-    'scissors': "/assets/images/Scissors.png",
-    'spock': "/assets/images/spock.png",
+    'rock': "assets/images/Rock.png",
+    'paper': "assets/images/Paper.png",
+    'scissors': "assets/images/Scissors.png",
+    'spock': "assets/images/spock.png",
     'lizard': "assets/images/lizard.png",
   }
   
