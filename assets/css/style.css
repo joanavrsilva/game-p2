@@ -333,18 +333,14 @@ button:hover p {
   #menu {
     float:center;
     size:12px;
-    margin-bottom: 20px;
   } 
   .how-play {
-    width:50px;
-    position: left;
+    margin-left:20px
   }
-  .score {
-    size:50px;
-    float:left;
+  .scoreboard {
+    width:500px
   }
   .hands img{
-    size:50px;
-    float:left;
+    width: 100px;
   }
 }
