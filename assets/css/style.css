@@ -328,3 +328,22 @@ button:hover p {
     display: flex;
     flex-direction: column;
   }
+
+  @media only screen and (max-width: 480px) {
+  #menu {
+    float:center;
+    size:12px;
+  } 
+  .how-play {
+    width:50px;
+    position: center;
+  }
+  .score {
+    size:50px;
+    float:left;
+  }
+  .hands img{
+    size:50px;
+    float:left;
+  }
+}
