@@ -43,39 +43,43 @@
       </div>
     </div>
 
-    <!--game area-->
-    <div class="hands">
-      <div class="hand paper">
-      <img src="/assets/images/Paper.png" onclick="pickUserHand('paper')"/>
-    </div>
-    <div class="hand scissors">
-      <img src="/assets/images/Scissors.png" onclick="pickUserHand('scissors')"/>
-    </div>
-    <div class="hand rock">
-      <img src="/assets/images/Rock.png" onclick="pickUserHand('rock')"/>                        
-    </div>
-    <div class="hand spock">
-      <img src="/assets/images/spock.png" onclick="pickUserHand('spock')"/>
-    </div>
-    <div class="hand lizard">
-      <img src="/assets/images/lizard.png" onclick="pickUserHand('lizard')"/>
-    </div>
-    <div class="contest">       
-      <div class="userhand">
-        <h1>YOU PICKED</h1>
-      <div class="handImageContainer">
-       <img id="userPickImage" src="/assets/images/Paper.png">
+      <!--game area-->
+      <div class="hands">
+        <div>
+          <img src="/assets/images/Paper.png" onclick="pickUserHand('paper')">
+        </div>
+        <div>
+          <img src="/assets/images/Scissors.png" onclick="pickUserHand('scissors')">
+        </div>
+        <div>
+          <img src="/assets/images/Rock.png" onclick="pickUserHand('rock')">                        
+        </div>
+        <div>
+          <img src="/assets/images/lizard.png" onclick="pickUserHand('lizard')">
+        </div>
+        <div>
+          <img src="/assets/images/spock.png" onclick="pickUserHand('spock')">                        
+        </div>
       </div>
+      <div class="contest">       
+        <div class="userhand">
+          <h1>YOU PICKED</h1>
+            <div class="handImageContainer">
+            <img id="userPickImage" src="/assets/images/Paper.png">
+            </div>
+        </div>
+        <div class="referee"> 
+          <div class="decision"><h1></h1></div>
+            <div class="newGame" onclick="restartGame()">PLAY AGAIN</div>
+        </div>
+        <div class="computerhand">
+          <h1>THE HOUSE PICKED</h1>
+            <div class="handImageContainer">
+            <img id="computerPickImage" src='/assets/images/Paper.png'> 
+            </div>   
+        </div>       
+      </div>        
     </div>
-    <div class="referee"> 
-      <div class="decision"><h1> YOU WIN! </h1></div>
-        <div class="newGame" onclick="restartGame()">PLAY AGAIN</div>
-    </div>
-    <div class="computerhand">
-      <h1>THE HOUSE PICKED</h1>
-      <div class="handImageContainer">
-      <img id="computerPickImage" src='/assets/images/Paper.png' /> 
-    </div>   
     <script src="/assets/js/script.js"></script>
   </body>
 </html>
