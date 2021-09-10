@@ -8,6 +8,13 @@
     box-sizing: border-box;
   }
   
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+  }
+
   .how-play-level-link {
     color:white;
     text-align:center
@@ -31,7 +38,7 @@
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 20px;
 
 }
 
@@ -80,9 +87,9 @@
 button {
 	cursor: pointer;
 	position: relative;
-	padding: 1.5rem 6.5rem;
+	padding: 1rem 4rem;
 	border-radius: 2.75rem;
-	line-height: 1.5rem;
+	line-height: 1rem;
 	font-size: 1rem;
 	font-weight: 400;
   color:white
