@@ -333,10 +333,11 @@ button:hover p {
   #menu {
     float:center;
     size:12px;
+    margin-bottom: 20px;
   } 
   .how-play {
     width:50px;
-    position: center;
+    position: left;
   }
   .score {
     size:50px;
