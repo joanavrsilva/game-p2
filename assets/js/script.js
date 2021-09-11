@@ -8,13 +8,11 @@
   // Get the <span> element that redirects the player home
   var goHomeLink = document.getElementsByClassName("goHome")[0];
 
-  // Get Image & Title you Lose
+  // Get Image you Lose
   var youLoseImg = document.getElementById("youLoseImg");
-  var youLoseTit = document.getElementById("youLoseTit");
 
-  // Get Image & Title you Win
+  // Get Image you Win
   var youWinImg = document.getElementById("youWinImg");
-  var youWinTit = document.getElementById("youWinTit");
   
   // Go Home function
   goHomeLink.onclick = function() {
@@ -100,7 +98,6 @@
         /*Put this in a dedicated function*/
         gameOverPopUp.style.display = "block";
         youWinImg.style.display = "block";
-        youWinTit.style.display = "block";
      }
 
     }
@@ -114,7 +111,6 @@
          /*Put this in a dedicated function*/
         gameOverPopUp.style.display = "block";
         youLoseImg.style.display = "block";
-        youLoseTit.style.display = "block";
       }
       
 
