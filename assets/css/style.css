@@ -380,11 +380,14 @@ button:hover p {
 }
 /*/*Laptop media queries*/
 @media only screen and (max-width: 1280px) {
-
+.wrapper{
+  margin-left:300px;
 }
 }
 /* Desktop media queries"*/
 @media only screen and (max-width: 1600px) {
+  .contest {
+    margin-right:950px;
   }
 }
   
