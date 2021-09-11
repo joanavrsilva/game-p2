@@ -457,14 +457,22 @@ button:hover p {
       width: 100%;
   }
   .hands img{
-    width: 100px;
+    width: 50px;
   }
 
   .context {
     width:200px
   }
+
+  .score {
+    padding-right:0px;
+    margin-right:0px;
+    margin-left:20px;
+  }
 }
 
+
+}
 /*Tablet media queries*/
 @media only screen and (max-width: 768px) {
   .contest {
