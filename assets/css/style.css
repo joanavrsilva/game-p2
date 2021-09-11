@@ -359,10 +359,14 @@ button:hover p {
     margin-left:20px
   }
   .scoreboard {
-    width:500px
+      width: 100%;
   }
   .hands img{
     width: 100px;
+  }
+
+  .context {
+    width:200px
   }
 }
 
