@@ -21,6 +21,8 @@
   }
 
   //Stat -- Play & Score Functions
+  
+  //Images
   const handOptions = {
     'rock': "assets/images/Rock.png",
     'paper': "assets/images/Paper.png",
@@ -28,19 +30,34 @@
     'spock': "assets/images/spock.png",
     'lizard': "assets/images/lizard.png",
   }
-  
+
+  //winning matches
+  const handWins = {
+    'rock': ['scissors', 'lizard'],
+    'paper': ['rock', 'spock'],
+    'scissors': ['paper', 'lizard'],
+    'spock': ['rock', 'scissors'],
+    'lizard': ['paper', 'spock']
+  }
+ 
+  //Score variables
   let SCORE = 0;
   let SCORECP = 0;
+
+  //Get Elements
   
+  var hands = document.getElementById("hands");
+  var results = document.getElementById("results");
+  var userPick = document.getElementById("userPickImage")
+  var cpPick = document.getElementById("computerPickImage");
+
+  //Main play function
   const playUserHand = (hand, Level) => {
-    let hands = document.querySelector(".hands");
-    hands.style.display = "none";
-  
-    let contest = document.querySelector(".contest");
-    contest.style.display = "flex";
+    hands.style.display = "none";  
+    results.style.visibility = "visible";
   
     // set user Image
-    document.getElementById("userPickImage").src = handOptions[hand];
+    userPick.src = handOptions[hand];
   
     //Select function depending on the Level to choose CpHand randomly
     if (Level==1){
@@ -54,42 +71,32 @@
   };
   
   const pickComputerHandL1 = () => {
-      let hands = ['rock', 'paper', 'scissors'];
-      let cpHand = hands[Math.floor(Math.random() * hands.length)];
+      let handsOpts = ['rock', 'paper', 'scissors'];
+      let cpHand = handsOpts[Math.floor(Math.random() * handsOpts.length)];
       
       // set computer image 
-      document.getElementById("computerPickImage").src = handOptions[cpHand];
+      cpPick.src = handOptions[cpHand];
       
       return cpHand;
   };
 
   const pickComputerHandL2 = () => {
-    let hands = ['rock', 'paper', 'scissors', 'spock', 'lizard'];
-    let cpHand = hands[Math.floor(Math.random() * hands.length)];
+    let handsOpts = ['rock', 'paper', 'scissors', 'spock', 'lizard'];
+    let cpHand = handsOpts[Math.floor(Math.random() * handsOpts.length)];
     
     // set computer image 
-    document.getElementById("computerPickImage").src = handOptions[cpHand];
+    cpPick.src = handOptions[cpHand];
       
     return cpHand;  
   };
 
-  // New code
-  const handWins = {
-    'rock': ['scissors', 'lizard'],
-    'paper': ['rock', 'spock'],
-    'scissors': ['paper', 'lizard'],
-    'spock': ['rock', 'scissors'],
-    'lizard': ['paper', 'spock']
-  }
- 
-
   const referee = (userHand, cpHand) => {
 
     if (userHand == cpHand) {
-      setDecision("It's a tie!");
+      setDecision("It's a tie!","none");
     }
     else if (handWins[userHand].includes(cpHand)){
-      setDecision("YOU WIN!");
+      setDecision("You win this round!","your-score");
       SCORE=SCORE + 1
       setScore(SCORE,"scoreUser");
       /*Put this in a dedicated function*/
@@ -102,7 +109,7 @@
 
     }
     else {
-      setDecision("YOU LOSE!");
+      setDecision("Computer wins this round","computer-score");
       SCORECP=SCORECP + 1
       setScore(SCORECP,"scoreCP");
 
@@ -119,15 +126,12 @@
 }
 
   const restartGame = () => {
-    let contest = document.querySelector(".contest");
-    contest.style.display = "none";
-  
-    let hands = document.querySelector(".hands");
-    hands.style.display = "flex";
+    results.style = "results";
+    hands.style="hands";
   }
   
-  const setDecision = (decision) => {
-    document.querySelector(".decision h1").innerText = decision;
+  const setDecision = (decision, style) => {
+    document.querySelector(".score-results h1").innerText = decision;
   }
   
   const setScore = (newScore, id) => {
