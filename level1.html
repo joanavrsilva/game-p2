@@ -42,13 +42,13 @@
       <!--game area-->
       <div class="hands center">
          <div class="hand paper">
-            <img src="assets/images/Paper.png" onclick="pickUserHand('paper')" title="paper">
+            <img src="assets/images/Paper.png" onclick="playUserHand('paper',1)" title="paper">
          </div>
          <div class="hand scissors">
-            <img src="assets/images/Scissors.png" onclick="pickUserHand('scissors')" title="scissors">
+            <img src="assets/images/Scissors.png" onclick="playUserHand('scissors',1)" title="scissors">
          </div>
          <div class="hand rock">
-            <img src="assets/images/Rock.png" onclick="pickUserHand('rock')" title="rock">                        
+            <img src="assets/images/Rock.png" onclick="playUserHand('rock',1)" title="rock">                        
          </div>
       </div>
       <div class="contest center">
@@ -60,12 +60,11 @@
          </div>
          <div class="referee">
             <div class="decision">
-               <h1>
-               </h1>
+               <h1></h1>
             </div>
             <div class="newGame" onclick="restartGame()">
                PLAY AGAIN
-            </div>
+            </div>           
          </div>
          <div class="computerhand">
             <h1>THE HOUSE PICKED</h1>
@@ -74,6 +73,27 @@
             </div>
          </div>
       </div>
+
+       <!-- Pop-up -->
+       <div id="gameOverPopUp" class="gameOverPopUp">
+         <!-- Modal content -->
+         <div class="gameOverPopUp-content">
+             <span class="goHome">Go back home</span>
+ 
+             <!-- You lose Pop-up elements -->
+             <img id="youLoseImg" src="assets/images/youLose.png" class="youLose centerPopUp">
+             <title id="youLoseTit" class="resultTit centerPopUp">You lose... =(</title>
+ 
+             <!-- You win Pop-up elements -->
+             <img id="youWinImg"src="assets/images/youWin.png" class="youWin centerPopUp">
+             <title id="youWinTit" class="resultTit centerPopUp">You won!! =). Wanna try again?</title>
+ 
+             <button class="button-level1 centerPopUp" onclick="location.href='level1.html'">Play Level 1 </button>
+             <button class="button-level2 centerPopUp" onclick ="location.href='level2.html'">Play Level 2 </button>
+ 
+         </div>
+       </div>
+
       <script src="assets/js/script.js"></script>
    </body>
 </html>
