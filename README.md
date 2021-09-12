@@ -6,17 +6,17 @@ The Rock Paper Scissors Game is a different way to play the traditional rock pap
 The website consists of six pages: Home, How to play, How to Play level 1, How to Play level 2, Play Level 1 and Play Level 2. Four are accessible from a navigation menu and the others two in the How to play page.
 
 * Navigation bar 
-![Screenshot (204)](https://user-images.githubusercontent.com/83631970/132970035-09333356-ae64-4642-bf7c-f1d03830ac9b.png)
     * On the right side there are four links: Home, How to play, Play Level 1 amd Play Level 2
     * The navigation bar is visible on the top of each page.
  
  
 
 * Colors
-    * background color: #ccddff
-    * font color: #6217ee
-    * link color: #ff6600
-    * hoover color: #ff9000
+   #2b2e53 - dark blue
+   white;
+   rgb(254,208,0); - yellow
+   rgb(177, 38, 63);- red
+   hsl(229, 25%, 31%);-blue
 
 * Fonts
     * Lato
@@ -51,7 +51,12 @@ The website consists of six pages: Home, How to play, How to Play level 1, How t
 * In the game area the user needs to choose one of three interatives hands (paper, scissor, rock), the computer choose the other randomly;
 * The score area count the user and the computer wins choices.
 * The home page also contains a button call Play Level 1 that leads to this page.
+<<<<<<< HEAD
 ![image](https://user-images.githubusercontent.com/83631970/132973026-12fc3d4f-5383-4d2f-90cd-1137ab7ae358.png)
+=======
+![Screenshot (212)](https://user-images.githubusercontent.com/83631970/132972616-86a42f0f-8fab-4251-8fa2-3af8c69db2cc.png)
+
+>>>>>>> 42d290ea4eda74863e054aa3d2c22ecf59a05997
 
 ### Play Level 2
 * The Play Level 2 page contains the level 1 game;
