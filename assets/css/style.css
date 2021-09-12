@@ -475,8 +475,8 @@ button:hover p {
   }
 
   .score-results img {
-    width: 25px;
-    height:25px;
+    width: 50px;
+    height: 50pxpx;
   }
   .your-score {
     font-size: smaller;
@@ -487,8 +487,17 @@ button:hover p {
   }
   .title {
   font-size:larger
-  }
 }
+.how-play p {
+  font-size: 15px;
+  margin-right: 30px
+}
+
+.how-play img {
+  width: 100px
+}
+}
+
 
 
 /*Tablet media queries*/
@@ -506,6 +515,14 @@ button:hover p {
   .center {
     width:300px
   }
+
+  .centerhp {
+    font-size:xx-large;
+}
+
+.how-play h1, h2 {
+  margin-top: 30px
+}
 }
 /*/*Laptop media queries*/
 @media only screen and (max-width: 1280px) {
