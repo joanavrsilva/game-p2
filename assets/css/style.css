@@ -456,13 +456,13 @@ button:hover p {
   .scoreboard {
       width: 100%;
   }
-  .hands-option{
+  .hands-option img{
     width: 50px;
     height: 50px;
     padding:5px;
   }
   .table class {
-    padding:0,
+    padding:0;
   }
   .context {
     width:200px
@@ -472,6 +472,11 @@ button:hover p {
     padding-right:0px;
     margin-right:20px;
     margin-left:20px;
+  }
+
+  .score-results img {
+    width: 25px;
+    height:25px;
   }
 
 }
