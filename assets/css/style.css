@@ -140,15 +140,13 @@
   color: white;
   padding-top: 80px;
   font-size: large;
-}
-.how-play-level-link {
-  color:white;
-  text-align:center
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .how-play-level-link {
   color:white;
-  text-align:center
+  text-align:center;
 }
 
 /** wrapper**/
