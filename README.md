@@ -8,6 +8,8 @@ The website consists of six pages: Home, How to play, How to Play level 1, How t
 * Navigation bar 
     * On the right side there are four links: Home, How to play, Play Level 1 amd Play Level 2
     * The navigation bar is visible on the top of each page.
+ ![Screenshot (204)](https://user-images.githubusercontent.com/83631970/132970035-09333356-ae64-4642-bf7c-f1d03830ac9b.png)
+ 
 
 * Colors
     * background color: #ccddff
@@ -34,6 +36,7 @@ The website consists of six pages: Home, How to play, How to Play level 1, How t
 * A title, two level play bottons and a image of the two levels;
 * The navigation bar also contains links to Play the Level 1 and Level 2.
 * The user can understand the game, choose the level he want to play and see the instructions if needed.
+![Screenshot (201)](https://user-images.githubusercontent.com/83631970/132969958-52de58f3-e4d5-4219-96a1-3225bb0911e0.png)
 
 ### How to play
 * The How to play page contains a explication for how to play Level 1 and Level 2;
