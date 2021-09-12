@@ -6,9 +6,10 @@ The Rock Paper Scissors Game is a different way to play the traditional rock pap
 The website consists of six pages: Home, How to play, How to Play level 1, How to Play level 2, Play Level 1 and Play Level 2. Four are accessible from a navigation menu and the others two in the How to play page.
 
 * Navigation bar 
+![Screenshot (204)](https://user-images.githubusercontent.com/83631970/132970035-09333356-ae64-4642-bf7c-f1d03830ac9b.png)
     * On the right side there are four links: Home, How to play, Play Level 1 amd Play Level 2
     * The navigation bar is visible on the top of each page.
- ![Screenshot (204)](https://user-images.githubusercontent.com/83631970/132970035-09333356-ae64-4642-bf7c-f1d03830ac9b.png)
+ 
  
 
 * Colors
