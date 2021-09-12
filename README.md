@@ -51,7 +51,7 @@ The website consists of six pages: Home, How to play, How to Play level 1, How t
 * In the game area the user needs to choose one of three interatives hands (paper, scissor, rock), the computer choose the other randomly;
 * The score area count the user and the computer wins choices.
 * The home page also contains a button call Play Level 1 that leads to this page.
-![image](https://user-images.githubusercontent.com/83631970/132970858-9c111d82-4d89-4ef6-8ce6-5ab43cc7d77e.png)
+![image](https://user-images.githubusercontent.com/83631970/132973026-12fc3d4f-5383-4d2f-90cd-1137ab7ae358.png)
 
 ### Play Level 2
 * The Play Level 2 page contains the level 1 game;

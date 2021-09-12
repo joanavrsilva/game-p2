@@ -53,8 +53,7 @@
   border-bottom: 2px solid white;
   }
 
-  /*for buttons level 1 and 2, and also pop up*/
-  
+  /*buttons level 1 and 2 and pop up*/ 
   .center {
     display: block;
     margin-left: auto;
@@ -73,9 +72,8 @@
     margin-right: auto;
   }
   
-  /* */
   /* button for each hand and for level 1 and 2*/
-  /*I used the codepen.io to get an idea for the buttons for level 1 and level 2*/
+  /*I inspired myself in codepen.io for the buttons for level 1 and level 2*/
 
   button {
   	cursor: pointer;
@@ -230,6 +228,7 @@
     padding-top: 80px;
     padding-bottom: 20px;
   }
+
   .your-score {
     padding: 0 40px 0 40px;
     text-align: center;
@@ -238,7 +237,8 @@
     color: white;
     border-radius: 8px;
     text-align:center;
-  } 
+  }
+
   .computer-score {
     padding: 0 25px 0 25px;
     text-align: center;
@@ -256,6 +256,7 @@
     border-radius: 8px;
     text-align:center;
   }
+
   .score-results {
     padding: 25px 0px 25px 0px;
     text-align:center;
@@ -264,8 +265,7 @@
     background-color: white;
   }
 
-  /*hand*/
-
+  /*hands*/
   .hands-option {
     padding: 25px 0px 25px 0px;
     border-radius: 8px;
@@ -407,7 +407,7 @@
     width: 33%;
   }
 
-  /* the pop up close button and the win and lose image */
+  /* the pop up go home button and the win and lose image */
    .goHome {
     color: white;
     float: right;
@@ -433,6 +433,7 @@
     width: 50%;
     height: 50%;
   }
+  
 /*media queries for mobiles view*/
   @media only screen and (max-width: 480px) {
   #menu {
