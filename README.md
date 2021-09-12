@@ -1,3 +1,4 @@
+![Screenshot (201)](https://user-images.githubusercontent.com/83631970/132969958-52de58f3-e4d5-4219-96a1-3225bb0911e0.png)
 # The Rock Paper Scissors Game
 The Rock Paper Scissors Game is a different way to play the traditional rock paper scissors game. This game has two levels: the level 1 and the level 2. The Level 1 corresponds to the traditional game of rock paper scissors with three possible choices: the rock hand, the paper hand and the hand scissors. The second level corresponds to a different version of the traditional game, based on the version of the Big Banf Theory serie, which consists in five hypotheses: the rock hand, the paper hand, the scissors hand, the spock hand and the lizard hand. In this game the user chooses a hand and the computer randomly generates another hand. The acore of the user and the computer is available during the game. Finally, instructions on how to play the game are also available.
 
