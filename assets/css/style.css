@@ -479,15 +479,14 @@ button:hover p {
     height:25px;
   }
   .your-score {
-    padding: 10px;
     font-size: smaller;
     margin-right: 50px;
-    position:center;
   }
-   .button-level2  {
+   .decision{
     font-size:small;
-    padding:10px
   }
+  .title {
+  font-size:larger
   }
 }
 
@@ -502,6 +501,10 @@ button:hover p {
   }
   .wrapper {
     margin-left:30px;
+  }
+
+  .center {
+    width:300px
   }
 }
 /*/*Laptop media queries*/
