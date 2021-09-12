@@ -478,7 +478,17 @@ button:hover p {
     width: 25px;
     height:25px;
   }
-
+  .your-score {
+    padding: 10px;
+    font-size: smaller;
+    margin-right: 50px;
+    position:center;
+  }
+   .button-level2  {
+    font-size:small;
+    padding:10px
+  }
+  }
 }
 
 
