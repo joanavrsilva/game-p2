@@ -482,6 +482,10 @@ button:hover p {
     font-size: smaller;
     margin-right: 50px;
   }
+  .computer-score {
+    font-size: smaller;
+    margin-right: 50px;
+  }
    .decision{
     font-size:small;
   }
@@ -534,6 +538,9 @@ button:hover p {
 @media only screen and (max-width: 1600px) {
   .contest {
     margin-right:950px;
+  }
+  .center img {
+    width:300px;
   }
 }
   
