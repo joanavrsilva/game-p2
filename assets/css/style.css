@@ -42,11 +42,7 @@
   }
 
   #menu a:hover {
-    color: double;
-  }
-
-  #menu a:hover {
-    border-bottom:rgb(254,208,0);
+    color: rgb(254,208,0);
   }
 
   .active {
@@ -107,7 +103,6 @@
   button span {
     color: transparent;
     background-image: linear-gradient(0deg, #EE82DA 0%, #FEFAFD 100%);
-    -webkit-background-clip: text;
     background-clip: text;
     filter: drop-shadow(0 2px 2px hsla(290, 100%, 20%, 1));
   }
@@ -152,9 +147,6 @@
   text-align:center
 }
 
-.how-play h2 {
-  text-decoration: center;
-}
 .how-play-level-link {
   color:white;
   text-align:center
@@ -162,7 +154,6 @@
 
 /** wrapper**/
 .wrapper {
-  display: center;
   flex-direction: column;
   align-items: center;
   padding-top: 80px;
@@ -436,10 +427,7 @@
   
 /*media queries for mobiles view*/
   @media only screen and (max-width: 480px) {
-  #menu {
-    float:center;
-    size:12px;
-  } 
+  
   .how-play {
     margin-left:20px
   }

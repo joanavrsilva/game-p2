@@ -18,7 +18,7 @@ var youWinImg = document.getElementById("youWinImg");
 goHomeLink.onclick = function() {
   gameOverPopUp.style.display = "none";
   window.location.href = "index.html";
-}
+};
 
 // star -- Play & Score Functions
 
@@ -38,7 +38,7 @@ const handWins = {
   'scissors': ['paper', 'lizard'],
   'spock': ['rock', 'scissors'],
   'lizard': ['paper', 'spock']
-}
+};
 
 // score variables
 let SCORE = 0;
@@ -51,7 +51,7 @@ var hands = document.getElementById("hands");
 
 //get result section elements
 var results = document.getElementById("results");
-var userPick = document.getElementById("userPickImage")
+var userPick = document.getElementById("userPickImage");
 var cpPick = document.getElementById("computerPickImage");
 
 // main play function
@@ -103,7 +103,7 @@ const referee = (userHand, cpHand) => {
   }
   else if (handWins[userHand].includes(cpHand)){
     setDecision("You win this round!","your-score");
-    SCORE=SCORE + 1
+    SCORE=SCORE + 1;
     setScore(SCORE,"scoreUser");
 
     //Display final pop-up - You win - Limit 3 rounds
@@ -115,7 +115,7 @@ const referee = (userHand, cpHand) => {
   }
   else {
     setDecision("Computer wins this round","computer-score");
-    SCORECP=SCORECP + 1
+    SCORECP=SCORECP + 1;
     setScore(SCORECP,"scoreCP");
 
     //Display final pop-up - You lose - Limit 3 rounds
@@ -124,21 +124,21 @@ const referee = (userHand, cpHand) => {
       youLoseImg.style.display = "block";
     }
   }
-}
+};
 
 //function to restart game
 const restartGame = () => {
   results.style = "results";
   hands.style="hands";
-}
+};
 
 //Function to set the decision
 const setDecision = (decision, style) => {
   document.querySelector(".score-results h1").innerText = decision;
-}
+};
 
 //Function to set the score
 const setScore = (newScore, id) => {
   document.getElementById(id).innerText = newScore;
-}
+};
 // end -- play & score Functions
