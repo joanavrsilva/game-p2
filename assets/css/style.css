@@ -65,11 +65,11 @@
 }
 
 #menu a:hover {
-    border-bottom: double;
+    color: double;
 }
 
 #menu a:hover {
-    border-bottom: 2px dotted white;
+    border-bottom:rgb(254,208,0);
 }
 
 .active {
@@ -420,7 +420,7 @@ button:hover p {
 
     /* The Close Button */
     .goHome {
-      color: #aaaaaa;
+      color: white;
       float: right;
       font-size: 28px;
       font-weight: bold;
