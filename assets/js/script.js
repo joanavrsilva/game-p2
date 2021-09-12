@@ -14,12 +14,17 @@ var youLoseImg = document.getElementById("youLoseImg");
 // get Image you Win
 var youWinImg = document.getElementById("youWinImg");
 
-// go Home function
-goHomeLink.onclick = function() {
-  gameOverPopUp.style.display = "none";
-  window.location.href = "index.html";
+//if error occurrs ignore
+try {
+  // go Home function
+  goHomeLink.onclick = function() {
+    gameOverPopUp.style.display = "none";
+    window.location.href = "index.html";
+  };
+}
+catch (e) {
+  //not in the correct page--ignore
 };
-
 // star -- Play & Score Functions
 
 // images
