@@ -456,7 +456,7 @@ button:hover p {
   .scoreboard {
       width: 100%;
   }
-  .hands img{
+  .hands-option{
     width: 50px;
   }
 
@@ -466,13 +466,13 @@ button:hover p {
 
   .score {
     padding-right:0px;
-    margin-right:0px;
+    margin-right:20px;
     margin-left:20px;
   }
+
 }
 
 
-}
 /*Tablet media queries*/
 @media only screen and (max-width: 768px) {
   .contest {
