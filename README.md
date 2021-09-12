@@ -43,6 +43,7 @@ The website consists of six pages: Home, How to play, How to Play level 1, How t
 * The How to play page contains a explication for how to play Level 1 and Level 2;
 * This pages contains links to see the combinations for win, lose and tie.
 * Each page with combinations for win, lose and tie, contains another link for the other level.
+![Screenshot (207)](https://user-images.githubusercontent.com/83631970/132970708-324e87c7-7573-4229-b6d6-15a66387812c.png)
 
 ### Play Level 1
 * The Play Level 1 page contains the level 1 game;
@@ -50,6 +51,7 @@ The website consists of six pages: Home, How to play, How to Play level 1, How t
 * In the game area the user needs to choose one of three interatives hands (paper, scissor, rock), the computer choose the other randomly;
 * The score area count the user and the computer wins choices.
 * The home page also contains a button call Play Level 1 that leads to this page.
+![image](https://user-images.githubusercontent.com/83631970/132970858-9c111d82-4d89-4ef6-8ce6-5ab43cc7d77e.png)
 
 ### Play Level 2
 * The Play Level 2 page contains the level 1 game;
@@ -58,6 +60,8 @@ The website consists of six pages: Home, How to play, How to Play level 1, How t
 * The score area count the user and the computer wins choices;
 * This game level has based on the Big Bang Theory serie.
 * The home page also contains a button call Play Level 2 that leads to this page.
+![Screenshot (211)](https://user-images.githubusercontent.com/83631970/132970990-e6034c45-ba49-4672-a33b-4972e4794879.png)
+
 
 ### Testing
 #### Code Validation
@@ -66,7 +70,7 @@ The website consists of six pages: Home, How to play, How to Play level 1, How t
 * HTML
     * Nu Html Checker - All errors have been fixed.
 * Javascript
-    *  - All errors have been fixed.  
+    *  Jshint - All errors have been fixed.  
     
 
 #### Performance testing
