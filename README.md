@@ -1,6 +1,6 @@
 Training for the final project: javascript rock-paper-scissor-game (joanavrsilva/rock-paper-scissors-game)
 
-Images from Clever Programme Game 
+Images from Clever Programme Game and Clipmax
 
 ![Screenshot (201)](https://user-images.githubusercontent.com/83631970/132969958-52de58f3-e4d5-4219-96a1-3225bb0911e0.png)
 # The Rock Paper Scissors Game
