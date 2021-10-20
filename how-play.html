@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8"/>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-      <title>Rock Paper Scissors Games</title>
-      <link rel="stylesheet" href="assets/css/style.css">
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-  <body>
-     <header>
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+    <header>
 
-      <!--nav menu-->
-      <nav>
-          <ul id="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="how-play.html" class="active">How to play</a></li>
-          </ul>
-      </nav>
+        <!--Navigation bar-->
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="how-to-play.html" class="active">How to play</a></li>
+            </ul>
+        </nav>
     </header>
 
-      <!--explication on how to play the rock paper scissors game level 1 and level 2-->
-      <div class="how-play">
+    <!--Explanation on how to play the rock paper scissors game level 1 and level 2-->
+    <div class="how-play">
         <div class="centerhp">
-          <!--explication level 1-->
+
+          <!--Explanation level 1-->
           <h1>How to play the Rock Paper Scissors Game</h1>
           <h2>Level 1</h2>
           <p>This level corresponds to the traditional rock paper scissors game.</p>
           <p>In the game level, start by choosing one of the following hands:</p>
           <img src="assets/images/level1-image.png" alt="level1">
           <p>After your choice, the computer will choose a hand.</p>
-          <a class="how-play-level-link" href="how-play-l1.html">Click here to see when you Win, Lose or Tie in Level 1</a>
+          <p>Click the button to see when you Win, Lose or Tie in Level 1</p>
+          <button class="button-instructions" onclick="level1Instructions()">Level 1 Instructions</button>
           
-          <!--explication level 2-->
+          <!--Explanation level 2-->
           <h2>Level 2</h2>
           <p>In the game level, start by choosing one of the following hands:</p>
           <img src="assets/images/level2-image.png" alt="level2">
           <p>After your choice, the computer will choose a hand.</p>
-          <a class="how-play-level-link" href="how-play-l2.html">Click here to see when you Win, Lose or Tie in Level 2</a>
+          <p>Click the button to see when you Win, Lose or Tie in Level 2</p>
+          <button class="button-instructions" onclick="level2Instructions()">Level 2 Instructions</button>
         </div>
       </div>
     <script src="/assets/js/script.js"></script>
   </body>
+</html>
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
