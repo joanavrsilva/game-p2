@@ -8,13 +8,16 @@
 
   body {
     font-family: "Barlow Condensed", sans-serif;
-    background-color:#2b2e53;
+    background-image: url('/assets/images/fire-and-water-g9b8c064b1_1920.jpg');
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
   }
 
   .title {
     text-align: center;
     padding-top: 80px;
-    color: white
+    color: white;
   }
 
 /*bar navigation menu*/  
@@ -38,7 +41,7 @@
 
   #menu a {
     text-decoration: none;
-    color:white;
+    color:white
   }
 
   #menu a:hover {
@@ -79,12 +82,12 @@
 	  line-height: 1rem;
 	  font-size: 1rem;
 	  font-weight: 400;
-    color:white
+    color:black;
   }
 
   .button-level1 {
-    border: 1px solid rgb(221, 122, 140);
-	  background-image: linear-gradient(-180deg, rgb(222, 65, 93) 0%, rgb(177, 38, 63) 100%);
+    border: 1px solid black;
+	  background-image: black;
 	  box-shadow: 0 0.5rem 0.75rem 0 rgb(216, 203, 206),
 							0 -0.25rem 0.75rem rgb(216, 203, 206) inset,
 							0 0.75rem 0.75rem rgb(216, 203, 206) inset,
@@ -92,13 +95,23 @@
   }
 
   .button-level2 {
-    border: 1px solid rgb(163, 231, 174) ;
-	  background-image: linear-gradient(-180deg, rgb(84, 130, 53) 0%, rgb(84, 130, 53) 100%);
+    border: 1px solid black;
+	  background-image: black;
 	  box-shadow: 0 0.5rem 0.75rem 0 rgb(216, 203, 206),
 							0 -0.25rem 0.75rem rgb(216, 203, 206) inset,
 							0 0.75rem 0.75rem rgb(216, 203, 206) inset,
 							0 0.25rem 0.75rem 0 rgb(216, 203, 206)inset;
   }
+
+  .button-instructions{
+    border: 1px solid black;
+	  background-image: black;
+	  box-shadow: 0 0.5rem 0.75rem 0 rgb(216, 203, 206),
+							0 -0.25rem 0.75rem rgb(216, 203, 206) inset,
+							0 0.75rem 0.75rem rgb(216, 203, 206) inset,
+							0 0.25rem 0.75rem 0 rgb(216, 203, 206)inset;
+  }
+
 
   button span {
     color: transparent;
@@ -203,7 +216,7 @@
   
   .score p {
     color: #2a45c2;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: 19px;
@@ -222,7 +235,7 @@
   .your-score {
     padding: 0 40px 0 40px;
     text-align: center;
-    background-color:rgb(84, 130, 53) ;
+    background-color:rgb(36, 109, 138) ;
     border: 1px solid white;
     color: white;
     border-radius: 8px;
@@ -230,12 +243,12 @@
   }
 
   .computer-score {
-    padding: 0 25px 0 25px;
+    padding: 20px 25px 20px 25px;
     text-align: center;
-    background-color:rgb(177, 38, 63);
+    background-color:rgb(184, 126, 52);
     border: 1px solid white;
     color: white;
-    border-radius: 8px;
+    border-radius: 4px;
     text-align:center;
   }
 
@@ -251,7 +264,7 @@
     padding: 25px 0px 25px 0px;
     text-align:center;
     border: 1px solid darkblue;
-    border-radius: 8px;
+    border-radius: 4spx;
     background-color: white;
   }
 
@@ -270,8 +283,8 @@
   .hands td {
     margin-left: auto;
     margin-right: auto;
-    background-color:#2b2e53;
-    border: #2b2e53;;
+    background-color:transparent;
+    border: transparent;
   }
 
   .hands img {
