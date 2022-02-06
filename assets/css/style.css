@@ -82,7 +82,8 @@
 	  line-height: 1rem;
 	  font-size: 1rem;
 	  font-weight: 400;
-    color:black;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.6);
   }
 
   .button-level1 {
