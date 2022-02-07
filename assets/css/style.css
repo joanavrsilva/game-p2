@@ -153,11 +153,27 @@
   margin-top: 30px;
   color: white;
   padding-top: 80px;
-  font-size: large;
+  font-size: medium;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   display: block;
+  
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: x-large;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  background-color:rgba(0, 0, 0, 0.7);
+  border-radius: 25px;
 }
 
 .how-play-level-link {
