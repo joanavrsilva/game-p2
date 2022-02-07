@@ -9,7 +9,9 @@
   body {
     font-family: "Barlow Condensed", sans-serif;
     background-image: url('/assets/images/fire-and-water-g9b8c064b1_1920.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
     height: 100%;
     overflow: hidden;
   }
@@ -83,7 +85,7 @@
 	  font-size: 1rem;
 	  font-weight: 400;
     color:white;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(92, 2, 2, 0.7);
   }
 
   .button-level1 {
